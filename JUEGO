@@ -1,3 +1,17 @@
 #include<stdio.h>
 #include<conio.h>
-
+int main(void)
+{
+int f,c;
+int matriz[3][3]={0};
+printf("\t\tGATO\n");
+for(f=0;f<3;f++)
+{
+    printf("\n");
+for(c=0;c<3;c++)
+{
+printf("%d\t",matriz[f][c]);
+} 
+}  
+return 0;
+}
